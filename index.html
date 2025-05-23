@@ -10,7 +10,10 @@
       background-color: #f4f4f4;
       color: #333;
     }
-    h1 {
+    h2 {
+      color: #2c3e50;
+    }
+    h3 {
       color: #2c3e50;
     }
     a {
@@ -54,15 +57,33 @@
 
 <body>
   <div class="container">
-    <h1>Hello, I'm Iveth Dominguez-Avendano</h1>
-    <p>Welcome to my website!</p>
+    <div class="container">
 
-    <h2>About Me</h2>
+        <div style="text-align: center; margin-bottom: 20px;">
+          <div style="
+            width: 150px;
+            height: 150px;
+            background-color: #e0e0e0;
+            border-radius: 50%;
+            display: inline-block;
+            line-height: 150px;
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+            font-style: italic;
+          ">
+            Photo<br>Coming Soon
+          </div>
+        </div>
+
+    <h2>Welcome To My Wepage, My Name is Iveth Dominguez!</h2>
+
+    <h3>About Me</h3>
     <p> I’m currently pursuing a Bachelor of Science in Computer Science at the University of Oregon, 
         with minors in Creative Writing and Mathematics. This combination allows me to explore both the 
         logical structure of code and the expressive power of language. </p> 
     <p> Alongside my studies, I work as a writing tutor at the university’s Tutoring and Academic Engagement 
-        Center, where I support students in developing their writing skills across disciplines. I’ve also served as 
+        Center, where I support students in developing their writing skills across various disciplines. I’ve also served as 
         a peer mentor for the Pathway Oregon Scholarship Program, guiding first-year students through their transition 
         into college life and helping them find community on campus. </p>
     <p> In my free time, I enjoy reading and 
@@ -70,17 +91,25 @@
         more accessible to students from all backgrounds, regardless of their prior experience. I believe that access 
         to education empowers younger generations to learn, grow, and shape the future. </p>
 
+    <h3>Technical Skills</h3>
+    <ul>
+    <li>Linux & Unix (command-line proficiency)</li>
+    <li>Python</li>
+    <li>C</li>
+    <li>HTML & CSS</li>
+    <li>Git & GitHub</li>
+    </ul>
+
     <div class="dropdown">
-      <div class="dropdown-toggle" onclick="toggleDropdown('linksContent')">Links ▾</div>
-      <div class="dropdown-content" id="linksContent">
+    <div class="dropdown-toggle" onclick="toggleDropdown('linksContent')">Links ▾</div>
+    <div class="dropdown-content" id="linksContent">
         <ul>
-          <li><a href="https://github.com/ideth9" target="_blank">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/iveth-dominguez-avendano-a4b85635a" target="_blank">LinkedIn</a></li>
-          <li><a href="mailto:idoming2@uoregon.edu">Email Me</a></li>
+        <li><a href="https://github.com/ideth9" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/iveth-dominguez-avendano-a4b85635a" target="_blank">LinkedIn</a></li>
+        <li><a href="mailto:idoming2@uoregon.edu">Email Me</a></li>
         </ul>
-      </div>
     </div>
-  </div>
+    </div>
 
   <script>
     function toggleDropdown(id) {
