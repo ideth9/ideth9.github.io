@@ -16,6 +16,9 @@
     h3 {
       color: #2c3e50;
     }
+    h4 {
+      color: #2c3e50;
+    }
     a {
       color: #007acc;
       text-decoration: none;
@@ -91,14 +94,36 @@
         more accessible to students from all backgrounds, regardless of their prior experience. I believe that access 
         to education empowers younger generations to learn, grow, and shape the future. </p>
 
-    <h3>Technical Skills</h3>
-    <ul>
-    <li>Linux & Unix (command-line proficiency)</li>
-    <li>Python</li>
-    <li>C</li>
-    <li>HTML & CSS</li>
-    <li>Git & GitHub</li>
-    </ul>
+    <h2>Current Project</h2>
+    <h3>FocusHut</h3>
+    <p>
+      Students can choose between two study methods: The Pomodoro Technique or The Feynman Technique. Both of the study 
+      methods will use a timer which allocates a certain amount of time to studying a particular topic. If students choose 
+      the Feynman Technique, they will be encouraged to write what they have learned into a simple and concise paragraph. 
+      Along with these two study methods, FocusHut will contain soothing graphics to provide a calm study environment. 
+      FocusHut will also provide relaxing background music to reduce the stress students may feel as they study.
+    </p>
+    <p>
+      So far we have implemented a tasks class which converts the tasks into a dictionary which contains their id, name, category, 
+      and completion status. We also are able to keep track of them through a JSON file which holds their status and information. 
+      The program so far is able to ask for user input by giving them four options to choose from. We have also looked into Tkinter 
+      for the GUI aspect of our project since we aren’t familiar with it. We also discussed possible ways to organize our GitHub to 
+      separate our classes from our main function. 
+    </p>
+    <a href="https://github.com/kaitym/focus-hut" target="_blank">FocusHut Repository</a>
+
+    <div class="dropdown">
+      <div class="dropdown-toggle" onclick="toggleDropdown('skillsContent')">Technical Skills ▾</div>
+      <div class="dropdown-content" id="skillsContent">
+        <ul>
+          <li>Linux & Unix (command-line proficiency)</li>
+          <li>Python</li>
+          <li>C</li>
+          <li>HTML & CSS</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </div>
+    </div>    
 
     <div class="dropdown">
     <div class="dropdown-toggle" onclick="toggleDropdown('linksContent')">Links ▾</div>
